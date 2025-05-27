@@ -1,8 +1,8 @@
 import asyncio
 
 from pyrogram import filters
-from DeadlineTech.enums import ChatMembersFilter
-from DeadlineTech.errors import FloodWait
+from pyrogram.enums import ChatMembersFilter
+from pyrogram.errors import FloodWait
 
 from DeadlineTech import app
 from DeadlineTech.misc import SUDOERS
